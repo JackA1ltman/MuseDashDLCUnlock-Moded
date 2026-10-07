@@ -19,6 +19,6 @@ Wanted to buy Just as Planned but missed the deadline? Don't want to buy DLC at 
 4. Modify the location of MuseDash in `MuseDashDLCUnlock.csproj` to ensure it is correct
 5. Run command `dotnet build MuseDashDLCUnlock\MuseDashDLCUnlock.csproj` in git project folder to build DLL
 6. Check DLL in `bin\Debug\net6.0\`
-7. Copy `MuseDashDLCUnlock.dll` to the `Mods` Game folder
+7. Copy `MuseDashDLCUnlock.dll` to the `Mods`folder in Game folder
 
 If build fails, make sure to check the location of referenced assemblies.
